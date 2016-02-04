@@ -31,7 +31,7 @@ Here are some examples of Lambda expressions.
 () -> System.out.println("Hi");
 String s -> { System.out.println(s); }
 (a) -> a
-() -> return 100;
+() -> { return 100; }
 ````
 
 Using a lambda expression, a thread can be started in this way:
